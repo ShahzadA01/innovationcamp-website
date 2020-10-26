@@ -1,0 +1,58 @@
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100px, 200px);
+    grid-gap: 1vw;
+    font-size: 1.5rem;
+}
+
+.meny{
+    grid-column: 1/2;
+    grid-row: auto;
+    border: 1px solid black;;
+    border-radius: 5px;
+    background-color: white;
+}
+body{
+    background-color: lightblue;
+}
+
+.ide{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+.intro{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+.hardware{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+.software{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.work{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.why{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
